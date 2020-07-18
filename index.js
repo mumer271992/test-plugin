@@ -35,12 +35,6 @@
 //     initCCP();
 // };
 
-// export default (function() {
-//   console.log("Initialzied from IIFE ...");
-// })();
-
-export default {
-  init: function () {
-    console.log("Initialzied from func ...");
-  }
-}
+export default (function() {
+  console.log("Initialzied from IIFE ...");
+})();
